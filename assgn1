@@ -1,0 +1,20 @@
+//define matrix of 100x100 with right diagonal upper half white ab=nd lower half black
+#include"opencv2/core/core.hpp"
+#include"opencv2/imgproc/imgproc.hpp"
+#include"opencv2/highgui/highgui.hpp"
+#include<iostream>
+using namespacce std;
+int main(){
+	mat img(100,100,cv_8uc1,Scalar(0));
+	namedWindow("w1",WINDOW_NORMAL);
+	for(int i = 0;i<100;i++){
+		for(int j = 0;j<100;j++){
+			if(i<=j){
+				img.at<uchar>(i,j) = 255;
+				}
+			}
+		}
+	}
+	imshow("w1",img);
+	return 0;
+}

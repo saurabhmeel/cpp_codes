@@ -1,0 +1,4 @@
+--2019-10-05 10:01:17--  https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+Resolving dl.google.com (dl.google.com)... 172.217.27.174, 2404:6800:4002:80e::200e
+Connecting to dl.google.com (dl.google.com)|172.217.27.174|:443... failed: Connection timed out.
+Connecting to dl.google.com (dl.google.com)|2404:6800:4002:80e::200e|:443... failed: Network is unreachable.

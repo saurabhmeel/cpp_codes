@@ -1,0 +1,40 @@
+#include"opencv2/core/core.hpp"
+#include"opencv2/imgproc/imgproc.hpp"
+#inclide"opencv2/highgui/highgui.hpp"
+use this header files above every opencv program
+
+
+binary image contains only white and black pixels no gray pixels
+known black and white images are grayscale
+
+
+mat img(rows,columns,opencv data type,scalar(0));
+data type cv_8uc1 c1 states 1 channel  uc unsigned integer ;  img is variable name  ;  scalar(0) means every pixel is zero intensity
+
+how to change pixel intensity
+store given pixel intensity in int
+int x = img.at<uchar>(i,j);
+i,j specify img coordinates
+
+
+how to create window
+namedWindow("window name",WINDOW_NORMAL);
+let window name be w1
+
+show image
+imshow("w1",img)
+
+open cv by default stores color intensities as BGR
+intensity ranges from 0-255
+
+
+to create color img 3 matrices of b g and r are superimosed    
+
+
+to create color img
+mat img1(rows,columns,opencv data type,scalar(0))
+data type changes to cv_8uc3  and scalar{0,0,0)
+
+int x_B = img.at<uchar>(i,j)[0];
+
+
