@@ -10,7 +10,7 @@ using namespace cv;
 
 int main(){
     namedWindow("w1",WINDOW_NORMAL);
-    Mat a = imread("erosion.png",0);
+    Mat a = imread("erosion.png",0); //image matrix
     Mat b = a.clone();
     for(int i=0;i<477;i++){
         for(int j =0;j<637;j++){
