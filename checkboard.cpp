@@ -7,6 +7,7 @@ using namespace cv;
 int main(){
 	namedWindow("w1",WINDOW_NORMAL);
 	Mat img(8,8,CV_8UC1,Scalar(0));
+	//nested for loops
 	for(int i=0;i<8;i++){
 		for(int j=0;j<8;j++){
 			if(i%2==0 && j%2!=0)
