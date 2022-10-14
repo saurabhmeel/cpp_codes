@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 int main(){
 	namedWindow("w1",WINDOW_NORMAL);
-	Mat a = imread("joker.jpg",0);
+	Mat a = imread("joker.jpg",0); //reads the image from path location
 	int x = a.rows;
 	int y = a.cols;
 	for(int i=0;i<x;i++){
