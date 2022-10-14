@@ -6,7 +6,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-using namespace cv;
+using namespace cv; // to acess the opencv library
 
 struct node{
     int x;
