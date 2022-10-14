@@ -19,6 +19,6 @@ int main(){
     cout<<a<<endl;
     cout<<b<<endl;
     cout<<c<<endl;
-    imshow("w1",img);
+    imshow("w1",img); //shows image window
     cvWaitKey(0);
 }
