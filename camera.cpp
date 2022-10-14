@@ -26,8 +26,8 @@ int main(int,char**){
     thrsmin=50;
     size=3;
     while(1){
-        cap>>img;
-        //Canny(img,img1,50,150,3);
+        cap>>img; //loop to capture image
+        //Canny(img,img1,50,150,3); exprimentation with edge detection
         imshow("w1",img);
         cvWaitKey(10);
     }
