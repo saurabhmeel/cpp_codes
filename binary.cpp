@@ -37,7 +37,7 @@ int main(){
 			}
 		}
 		
-		imshow("w1",b);
+		imshow("w1",b); // to show image window
 		cvWaitKey(10);	
 	}
 	
